@@ -1,0 +1,600 @@
+*{/*всем*/
+     /*внутренний*/
+     padding: 0;
+     /*внещний отступ*/
+     margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 100%;
+    height:  80px;
+    background:  white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: "Myanmar Text";
+
+}
+.logo{
+    width: 150px;
+    height: 80px;
+    color: deeppink;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tool{
+    color:rgb(51,204,153) ;
+}
+.logo2{
+    color: gainsboro;
+    font-size: 15px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -100px;
+}
+.menu{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    cursor: pointer;
+}
+
+.num{
+    color: deeppink;
+}
+
+.site {
+    box-sizing: border-box;
+    min-width: 100px;
+    max-width: 2000px;
+    min-height: 100px;
+    max-height: 2000px;
+    overflow: auto;
+    display: table;
+    table-layout: fixed;
+    width: 1024px;
+    /*background:  rgba(0,0,0,.1);*/
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.fon{
+    display: flex;
+    justify-content: center;
+    background: rgb(51,204,153);
+    width: 1024px;
+    height: 350px;
+    margin-top: 0px;
+    background-size: 150%;
+    font-family: "Myanmar Text";
+}
+.pc{
+    margin-left: -500px ;
+    margin-top: 70px;
+}
+.text{
+    margin-left: 186px;
+    position: absolute;
+    bottom: 530px;
+    width: 280px;
+    height: 50px;
+    color: white;
+    font-size: 35px;
+    line-height: 35px;
+}
+.text2{
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 200px;
+    position: absolute;
+    bottom: 367px;
+    width: 300px;
+    height: 120px;
+}
+.btntry{
+    width: 110px;
+    height: 40px;
+    background: darkslategray;
+    font-size: 20px;
+    color: white;
+    text-shadow: black 0 0 5px;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    top: 63%;
+    left: 73%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btntry span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btntry:active{
+    background: gray;
+    user-select: none;
+}
+.LOREM1{
+    color: rgb(254,51,102);
+    margin-left: 50px;
+
+}
+.ASIGNMENT {
+    color: rgb(29,187,144);
+    margin-left: 50px;
+}
+.fon1{
+    background: rgb(254,51,102);
+    width: 100%;
+    height: 90px;
+}
+.fon3 {
+    display: block;
+    width: 1024px;
+    height: 300px;
+    font-family: "Myanmar Text";
+
+}
+.textcheck{
+    padding: 0;
+    display: block;
+    height:50px ;
+    font-weight: normal;
+    width: 1024px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Myanmar Text";
+    font-size: 27px;
+    margin-left: -25px;
+}
+.CHECK{
+    width: 1024px;
+    margin-left: -70px;
+    display: block;
+    color: rgb(29,187,144);
+}
+.OUR{
+    width: 1024px;
+    margin-left: 70px;
+    display: block;
+    margin-top: -50px;
+   /* margin-left: 200px;*/
+    color: rgb(254,51,102);
+}
+.textsing{
+    padding: 0;
+    display: block;
+    height:50px ;
+    font-weight: normal;
+    width: 1024px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Myanmar Text";
+    font-size: 27px;
+    margin-left: -25px;
+}
+.SING{
+    width: 1024px;
+    margin-left: -130px;
+    display: block;
+    color: rgb(29,187,144);
+}
+.PREMIUM{
+    width: 1024px;
+    margin-left: 130px;
+    display: block;
+    margin-top: -50px;
+    /* margin-left: 200px;*/
+    color: rgb(254,51,102);
+}
+.fon4{
+    width: 1024px;
+    height: 300px;
+}
+.fon5{
+    width: 1024px;
+    height: 450px;
+}
+.box1{
+
+    background: rgb(29,187,144);
+    width: 165px;
+    height: 48px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 165%;
+    left: 373px;
+    transform: translate(-50%, -50%)
+}
+.box2{
+    background: rgb(71,71,71);
+    width: 165px;
+    height: 48px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 165%;
+    left: 773px;
+    transform: translate(-50%, -50%)
+}
+.box3{
+    background: rgb(211,66,114);
+    width: 165px;
+    height: 48px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 165%;
+    left: 1146px;
+    transform: translate(-50%, -50%)
+}
+.fon6{
+    width: 1024px;
+    height: 320px;
+
+}
+.iconcom{
+    top: 60%;
+    left: 3%;
+    margin-right: 100%;
+    transform: translate(-20%, -110%)
+}
+.iconcom3{
+    top: 80%;
+    left: 3%;
+    margin-right: 100%;
+    transform: translate(-20%, -465%)
+}
+.iconcom2{
+    top: 120%;
+    left: 3%;
+    margin-right: 100%;
+    transform: translate(-20%, -520%)
+}
+.comm{
+    height: 254px;
+    width: 520px;
+}
+.comm1{
+    width: 390px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 70px;
+    font-size: 13px;
+    font-family: "Myanmar Text";
+line-height: 20px;
+}
+.comm2{
+    width: 390px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: "Myanmar Text";
+    line-height: 20px;
+}
+.comm3{
+    width: 390px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: "Myanmar Text";
+    line-height: 20px;
+}
+.textmore{
+    font-family: "Myanmar Text";
+    color: rgb(29,187,144);
+    font-size: 27px;
+    margin-top: -52px;
+    margin-left: 605px;
+}
+.textsay{
+    height: 30px;
+    font-family: "Myanmar Text";
+    color: rgb(29,187,144);
+    font-size: 27px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.btnbuy1 span{
+    font-size: 15px;
+    font-family: "Myanmar Text";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btnbuy2 span{
+    font-size: 15px;
+    font-family: "Myanmar Text";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btnbuy3 span{
+    font-size: 15px;
+    font-family: "Myanmar Text";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.box1 span{
+    font-family: "Myanmar Text";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.box2 span{
+    font-family: "Myanmar Text";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.imagebox{
+    width: 420px;
+    margin-left: 605px;
+    margin-top: -277px;
+}
+.box3 span{
+    font-family: "Myanmar Text";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btnbuy1:active{
+    background: darkturquoise;
+    user-select: none;
+}
+.btnbuy2:active{
+    background: gray;
+    user-select: none;
+}
+.btnbuy3:active{
+    background: hotpink;
+    user-select: none;
+}
+.btnbuy1{
+    cursor:pointer ;
+    background: rgb(29,187,144);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 201%;
+    left: 405px;
+    transform: translate(-50%, -50%)
+}
+.btnbuy2{
+    cursor:pointer ;
+    background: rgb(71,71,71);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 201%;
+    left: 805px;
+    transform: translate(-50%, -50%)
+}
+.btnbuy3{
+    cursor:pointer ;
+    background: rgb(211,66,114);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 201%;
+    left: 1180px;
+    transform: translate(-50%, -50%)
+}
+
+.block{
+   margin-top: 50px;
+}
+.block1{
+    background: rgb(71,71,71);
+    width: 250px;
+    height: 350px;
+    margin-top: -4px;
+
+
+}
+.block2{
+    margin-left: 400px;
+    margin-top: -350px;
+    background: rgb(211,66,114);
+    width: 250px;
+    height: 350px;
+}
+.block3{
+    margin-left: 774px;
+    margin-top: -350px;
+    background: rgb(29,187,144);
+    width: 250px;
+    height: 350px;
+}
+.texttake{
+    padding: 0;
+    display: block;
+    height:50px ;
+    font-weight: normal;
+    width: 1024px;
+    margin-top: -15px;
+    text-align: center;
+    font-family: "Myanmar Text";
+    font-size: 27px;
+}
+.take{
+    width: 1024px;
+    margin-left: -85px;
+    display: block;
+    color: rgb(29,187,144);
+}
+.FLATTOOL{
+    width: 1024px;
+    margin-left: 85px;
+    display: block;
+    margin-top: -50px;
+    /* margin-left: 200px;*/
+    color: rgb(254,51,102);
+}
+.headline{
+    color:  rgb(29,187,144);
+    width: 157px;
+    height: 48px;
+    margin-left: 5%;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.headline1{
+    color:  rgb(29,187,144);
+    width: 157px;
+    height: 50px;
+    margin-left: 1%;
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+.headline2
+{
+    color:  rgb(29,187,144);
+    width: 157px;
+    height: 50px;
+    margin-left: 215%;
+    margin-top: -50px;
+    font-size: 17px;
+}
+.headline3{
+    color:  rgb(29,187,144);
+    width: 157px;
+    height: 50px;
+    margin-left: 455%;
+    margin-top: -50px;
+    font-size: 14px;
+}
+.lorem{
+    top: 85%;
+    margin-left: 3%;
+    font-size: 14px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    line-height: 20px;
+
+}
+.dolar{
+    top: 85%;
+    margin-left: 50%;
+    position: absolute;
+    bottom: -50px;
+    width: 200px;
+    height: 150px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.amet{
+    font-size: 14px;
+    line-height: 20px;
+    top: 85%;
+    margin-left: 25%;
+    position: absolute;
+    bottom: -50px;
+    width: 200px;
+    height: 150px;
+}
+.footer{
+height: 90px;
+    background:rgb(211,66,114);
+    margin-top: 50px;
+}
+.footertext1{
+    margin-top: 25px;
+    font-family: "Myanmar Text";
+    color: white;
+    width: 250px;
+    height: 60px;
+    margin-left: 200px;
+    line-height: 30px;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-30%, 35%)
+}
+.line{
+    width: 250px;
+    height: 25px;
+    background: white;
+    margin-top: -25px;
+    margin-left:600px ;
+}
+.letter{
+    padding: 8px;
+    background: white;
+    margin-top: -32px;
+    margin-left:850px ;
+    width: 27px;
+    height: 25px;
+}
+.footer2{
+    height: 60px;
+    background: white;
+}.textfooter1{
+    color: gray;
+     font-family: "Myanmar Text";
+font-size: 12px;
+    margin-top: 25px;
+    margin-left: 100px;
+ }
+.textfooter2{
+    color: gray;
+    font-family: "Myanmar Text";
+    font-size: 12px;
+    margin-left: 700px;
+    margin-top: -23px;
+}
+.textblock1{
+    color: white;
+    width: 200px;
+    height: 300px;
+}
+.textblock1 span{
+    font-family: "Myanmar Text";
+    *top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
